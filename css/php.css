@@ -1,0 +1,45 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+body{
+position: relative;
+}
+
+.list{
+position: absolute;
+left: 50%;
+top: 20px;
+transform: translate(-50%,-100%);
+margin: 50px auto;
+background-color: brown;
+color: white;
+padding: 20px;
+font-weight: bold;
+}
+
+.list li{
+display: inline-block;
+cursor: pointer;
+margin: 10px;
+}
+
+.imge{
+    position: absolute;
+margin: 50px auto;
+text-align: center;
+margin-top: 100px;
+}
+
+.imge img{
+margin: 10px;
+height: 250px;
+}
+
+.all{
+display: inline-block;
+
+
+}
